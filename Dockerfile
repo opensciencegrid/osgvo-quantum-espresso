@@ -3,7 +3,7 @@ FROM opensciencegrid/osgvo-ubuntu-18.04
 LABEL opensciencegrid.name="Quantum Espresso"
 LABEL opensciencegrid.description="A suite for first-principles electronic-structure calculations and materials modeling"
 LABEL opensciencegrid.url="https://www.quantum-espresso.org/"
-LABEL opensciencegrid.category="Tool"
+LABEL opensciencegrid.category="Tools"
 LABEL opensciencegrid.definition_url="https://github.com/opensciencegrid/osgvo-quantum-espresso"
 
 RUN export DEBIAN_FRONTEND=noninteractive DEBCONF_NONINTERACTIVE_SEEN=true && \
