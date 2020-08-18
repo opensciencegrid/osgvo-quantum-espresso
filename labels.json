@@ -2,6 +2,7 @@
     "opensciencegrid.name": "Quantum Espresso",
     "opensciencegrid.description": "A suite for first-principles electronic-structure calculations and materials modeling",
     "opensciencegrid.url": "https://www.quantum-espresso.org/",
-    "opensciencegrid.category": "Tool"
+    "opensciencegrid.category": "Tool",
+    "opensciencegrid.definition_url": "https://github.com/opensciencegrid/osgvo-quantum-espresso"
 }
 
