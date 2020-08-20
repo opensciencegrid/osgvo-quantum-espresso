@@ -13,6 +13,8 @@ RUN export DEBIAN_FRONTEND=noninteractive DEBCONF_NONINTERACTIVE_SEEN=true && \
         libopenmpi-dev \
         openmpi-bin \
         openmpi-common \
+        openssh-client \
+        rsh-client \
         && \
     apt-get clean 
 
