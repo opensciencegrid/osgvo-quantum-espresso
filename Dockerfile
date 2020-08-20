@@ -23,7 +23,7 @@ RUN cd /tmp && \
     wget -nv https://github.com/QEF/q-e/archive/qe-6.6.tar.gz && \
     tar xzf qe-6.6.tar.gz && \
     cd q-e-qe-6.6 && \
-    ./configure --prefix=/opt/qe --enable-openmp && \
+    ./configure --prefix=/opt/qe && \
     make all && \
     make install && \
     cd /tmp && \
