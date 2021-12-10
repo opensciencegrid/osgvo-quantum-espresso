@@ -20,10 +20,10 @@ RUN export DEBIAN_FRONTEND=noninteractive DEBCONF_NONINTERACTIVE_SEEN=true && \
 
 RUN cd /tmp && \
     rm -rf qe-* && \
-    wget -nv https://github.com/QEF/q-e/archive/qe-6.6.tar.gz && \
-    tar xzf qe-6.6.tar.gz && \
-    cd q-e-qe-6.6 && \
-    ./configure --prefix=/opt/qe && \
+    wget -nv https://github.com/QEF/q-e/archive/refs/tags/qe-6.8.tar.gz && \
+    tar xzf qe-6.8.tar.gz && \
+    cd q-e-qe-6.8 && \
+    ./configure --prefix=/opt/qe --disable-parallel --disable-openmp && \
     make all && \
     make install && \
     cd /tmp && \
